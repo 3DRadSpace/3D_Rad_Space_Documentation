@@ -1,2 +1,4 @@
-# 3D_Rad_Space_Documentation
+# 3DRadSpace Documentation
 Official HTML documentation for 3DRadSpace!
+
+(Note: Documentation is generated with doxygen)
