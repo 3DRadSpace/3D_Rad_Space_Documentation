@@ -1,0 +1,26 @@
+digraph "_3DRadSpaceDll.GameObject"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_3DRadSpaceDll.GameObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Base class for all 3DRadSpace objects."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_3DRadSpaceDll.Camera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_camera.html",tooltip="3D Camera class. Allows drawing three dimensinal scenes."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="_3DRadSpaceDll.Camera2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_camera2_d.html",tooltip="Camera class for 2D projects. Used to draw 2D scenes."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="_3DRadSpaceDll.Fog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_fog.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="_3DRadSpaceDll.Script",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_script.html",tooltip="C# Script class."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="_3DRadSpaceDll.Skinmesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_skinmesh.html",tooltip="Class for drawing a 3D mesh."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="_3DRadSpaceDll.SkyColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_sky_color.html",tooltip="Colors the screen when screen cleaning is used."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="_3DRadSpaceDll.SoundEffect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_sound_effect.html",tooltip="SoundEffect class. Allows loading and playing sound effects."];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="_3DRadSpaceDll.Sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_sprite.html",tooltip="2D Screen images class."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="_3DRadSpaceDll.TextPrint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__3_d_rad_space_dll_1_1_text_print.html",tooltip="Class for drawing 2D Texts."];
+}
