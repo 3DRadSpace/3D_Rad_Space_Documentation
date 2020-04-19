@@ -1,6 +1,7 @@
 var class__3_d_rad_space_dll_1_1_sprite =
 [
     [ "Sprite", "class__3_d_rad_space_dll_1_1_sprite.html#aeaa1adf788fb16875058b8d6d70641b9", null ],
+    [ "Sprite", "class__3_d_rad_space_dll_1_1_sprite.html#a4c77672a9bcb3c7cf3380072ac4a7e89", null ],
     [ "Dispose", "class__3_d_rad_space_dll_1_1_sprite.html#a42814def7bc87396e3a72bd2774c3d95", null ],
     [ "Dispose", "class__3_d_rad_space_dll_1_1_sprite.html#a1e785a8ca05b2baf968ff2c0b61d23c7", null ],
     [ "Draw", "class__3_d_rad_space_dll_1_1_sprite.html#a2650144fc0de8a9aa96fe5e601e62c63", null ],
