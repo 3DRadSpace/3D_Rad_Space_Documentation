@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['isusedbycam2d_397',['IsUsedByCam2D',['../class__3_d_rad_space_dll_1_1_sprite.html#a4eaf4ea0a49d5bd3c2a5cd75b0bbfe20',1,'_3DRadSpaceDll::Sprite']]]
+  ['hidden_432',['Hidden',['../class__3_d_rad_space_dll_1_1_game_object.html#a395b66c4a506fbc5779bdffa847593ed',1,'_3DRadSpaceDll::GameObject']]],
+  ['holdingtime_433',['HoldingTime',['../class__3_d_rad_space_dll_1_1_event_on_key.html#af8025aae426fec420ed0a7555c62ed67',1,'_3DRadSpaceDll::EventOnKey']]]
 ];

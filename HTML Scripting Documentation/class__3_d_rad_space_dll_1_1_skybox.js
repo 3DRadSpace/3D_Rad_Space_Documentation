@@ -8,6 +8,6 @@ var class__3_d_rad_space_dll_1_1_skybox =
     [ "EditorDraw", "class__3_d_rad_space_dll_1_1_skybox.html#a9767a2e172a3d66067255d7767ad4c62", null ],
     [ "LinkAvalableCamera", "class__3_d_rad_space_dll_1_1_skybox.html#a7a7e97f602c8c24c6565ad6ba17b87f5", null ],
     [ "Load", "class__3_d_rad_space_dll_1_1_skybox.html#af189da50a2ad9216dea6a2a1ddba8edd", null ],
-    [ "Texture", "class__3_d_rad_space_dll_1_1_skybox.html#a9ff8e4945b3eda6fb57608c2483db1f3", null ],
+    [ "PX", "class__3_d_rad_space_dll_1_1_skybox.html#a6683df46ec0e23af19f938888349e2e9", null ],
     [ "Size", "class__3_d_rad_space_dll_1_1_skybox.html#a5ecd1a725bbe1c75b5bcb0af059e04a1", null ]
 ];

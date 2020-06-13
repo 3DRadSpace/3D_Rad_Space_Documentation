@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['behiavours_371',['Behiavours',['../class__3_d_rad_space_dll_1_1_game_object.html#abd88de6bf36227e68d58f887e78f9ace',1,'_3DRadSpaceDll::GameObject']]],
-  ['boundingbox_372',['BoundingBox',['../class__3_d_rad_space_dll_1_1_skinmesh.html#a339672957b6e8e4d09ab9aaf0414ba88',1,'_3DRadSpaceDll::Skinmesh']]],
-  ['boundingsphere_373',['BoundingSphere',['../class__3_d_rad_space_dll_1_1_skinmesh.html#a1f1d4d6d51b8b1f82614429e366e8f83',1,'_3DRadSpaceDll::Skinmesh']]]
+  ['author_408',['Author',['../class__3_d_rad_space_dll_1_1_custom_object_info.html#a2311d501adc8ef0a0399530ba44138db',1,'_3DRadSpaceDll::CustomObjectInfo']]]
 ];

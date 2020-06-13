@@ -102,6 +102,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acd7d433beb2d029766f3121deb13eec8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class__3_d_rad_space_dll_1_1_game.html#acd7d433beb2d029766f3121deb13eec8">DrawModel</a> (Model model, Matrix world, Matrix view, Matrix projection, bool FogEnabled=false, Vector3 FogColor=default, float FogStart=0, float FogEnd=0)</td></tr>
 <tr class="memdesc:acd7d433beb2d029766f3121deb13eec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a 3D Model.  <a href="class__3_d_rad_space_dll_1_1_game.html#acd7d433beb2d029766f3121deb13eec8">More...</a><br /></td></tr>
 <tr class="separator:acd7d433beb2d029766f3121deb13eec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7205e17737c1b490caaa14b38e45f516"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class__3_d_rad_space_dll_1_1_game.html#a7205e17737c1b490caaa14b38e45f516">DrawModelAlpha</a> (Model model, Matrix world, Matrix view, Matrix projection, float alpha, bool FogEnabled=false, Vector3 FogColor=default, float FogStart=0, float FogEnd=0)</td></tr>
+<tr class="memdesc:a7205e17737c1b490caaa14b38e45f516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a model with the specified transparency.  <a href="class__3_d_rad_space_dll_1_1_game.html#a7205e17737c1b490caaa14b38e45f516">More...</a><br /></td></tr>
+<tr class="separator:a7205e17737c1b490caaa14b38e45f516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bf71f17e682999afd89641d8d83ed47"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class__3_d_rad_space_dll_1_1_game.html#a6bf71f17e682999afd89641d8d83ed47">FindObject</a> (int i)</td></tr>
 <tr class="memdesc:a6bf71f17e682999afd89641d8d83ed47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an objects after it's id.  <a href="class__3_d_rad_space_dll_1_1_game.html#a6bf71f17e682999afd89641d8d83ed47">More...</a><br /></td></tr>
 <tr class="separator:a6bf71f17e682999afd89641d8d83ed47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +209,100 @@ Properties</h2></td></tr>
     <tr><td class="paramname">model</td><td>3D Model</td></tr>
     <tr><td class="paramname">world</td><td>Scale*Rotaion*Position Matrix</td></tr>
     <tr><td class="paramname">view</td><td>View matrix</td></tr>
+    <tr><td class="paramname">projection</td><td>Projection Matrix</td></tr>
+    <tr><td class="paramname">FogEnabled</td><td>Allows <a class="el" href="class__3_d_rad_space_dll_1_1_fog.html">Fog</a> effects on the model</td></tr>
+    <tr><td class="paramname">FogColor</td><td><a class="el" href="class__3_d_rad_space_dll_1_1_fog.html">Fog</a> colour if allowed</td></tr>
+    <tr><td class="paramname">FogStart</td><td><a class="el" href="class__3_d_rad_space_dll_1_1_fog.html">Fog</a> Start Distance</td></tr>
+    <tr><td class="paramname">FogEnd</td><td><a class="el" href="class__3_d_rad_space_dll_1_1_fog.html">Fog</a> End Distance</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7205e17737c1b490caaa14b38e45f516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7205e17737c1b490caaa14b38e45f516">&#9670;&nbsp;</a></span>DrawModelAlpha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void _3DRadSpaceDll.Game.DrawModelAlpha </td>
+          <td>(</td>
+          <td class="paramtype">Model&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix&#160;</td>
+          <td class="paramname"><em>world</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix&#160;</td>
+          <td class="paramname"><em>view</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Matrix&#160;</td>
+          <td class="paramname"><em>projection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>FogEnabled</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>FogColor</em> = <code>default</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>FogStart</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>FogEnd</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draws a model with the specified transparency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">model</td><td>3D Model</td></tr>
+    <tr><td class="paramname">world</td><td>Scale*Rotaion*Position Matrix</td></tr>
+    <tr><td class="paramname">view</td><td>View matrix</td></tr>
+    <tr><td class="paramname">alpha</td><td>Alpha value ranging from 0.0f to 1.0f</td></tr>
     <tr><td class="paramname">projection</td><td>Projection Matrix</td></tr>
     <tr><td class="paramname">FogEnabled</td><td>Allows <a class="el" href="class__3_d_rad_space_dll_1_1_fog.html">Fog</a> effects on the model</td></tr>
     <tr><td class="paramname">FogColor</td><td><a class="el" href="class__3_d_rad_space_dll_1_1_fog.html">Fog</a> colour if allowed</td></tr>

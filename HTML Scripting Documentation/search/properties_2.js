@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['dopplerscale_381',['DopplerScale',['../class__3_d_rad_space_dll_1_1_sound_source.html#a9304c027a078952e0d11c25477aa525f',1,'_3DRadSpaceDll::SoundSource']]],
-  ['drawingbounds_382',['DrawingBounds',['../class__3_d_rad_space_dll_1_1_camera2_d.html#a29a858c7db55ce8a5e3685f40733d674',1,'_3DRadSpaceDll::Camera2D']]]
+  ['center_412',['Center',['../class__3_d_rad_space_dll_1_1_sprite.html#a8d89577ba6c1438b8a398302e5f94b52',1,'_3DRadSpaceDll.Sprite.Center()'],['../class__3_d_rad_space_dll_1_1_text_print.html#a908b5b6655fdfc558ebd72800932b1ca',1,'_3DRadSpaceDll.TextPrint.Center()']]],
+  ['classname_413',['ClassName',['../class__3_d_rad_space_dll_1_1_script.html#a462325a0d0285f28170041368837afb2',1,'_3DRadSpaceDll::Script']]],
+  ['color_414',['Color',['../class__3_d_rad_space_dll_1_1_text_print.html#a96385a2dd117389a05d01ea71a1d2ed8',1,'_3DRadSpaceDll::TextPrint']]],
+  ['compilationstatus_415',['CompilationStatus',['../class__3_d_rad_space_dll_1_1_script.html#af98c7cfc8220cea9abfbd4d85be2dd79',1,'_3DRadSpaceDll::Script']]],
+  ['compilationtime_416',['CompilationTime',['../class__3_d_rad_space_dll_1_1_script.html#a34db23e0dbc2143d6e0d2b9f43a0ea4f',1,'_3DRadSpaceDll::Script']]],
+  ['cultureinfo_417',['CultureInfo',['../class__3_d_rad_space_dll_1_1_main.html#abe3a32492b75c7f3cca1e8319deccf35',1,'_3DRadSpaceDll::Main']]]
 ];

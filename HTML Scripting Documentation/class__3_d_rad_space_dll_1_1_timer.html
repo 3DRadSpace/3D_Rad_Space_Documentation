@@ -114,7 +114,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a17039e673f49986643be9ec861965c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html" title="Executes an event everytime a &#39;period&#39; passes for a number of times.">Timer</a> constructor.  <a href="class__3_d_rad_space_dll_1_1_timer.html#a17039e673f49986643be9ec861965c5b">More...</a><br /></td></tr>
 <tr class="separator:a17039e673f49986643be9ec861965c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5736ca0edc78a59d91959b7255edc09a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class__3_d_rad_space_dll_1_1_timer.html#a5736ca0edc78a59d91959b7255edc09a">Timer</a> (string name, bool enabled, uint period, uint repetitions)</td></tr>
-<tr class="memdesc:a5736ca0edc78a59d91959b7255edc09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html" title="Executes an event everytime a &#39;period&#39; passes for a number of times.">Timer</a> constructor.  <a href="class__3_d_rad_space_dll_1_1_timer.html#a5736ca0edc78a59d91959b7255edc09a">More...</a><br /></td></tr>
+<tr class="memdesc:a5736ca0edc78a59d91959b7255edc09a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class__3_d_rad_space_dll_1_1_main.html" title="Global stuff there and over there.">Main</a> <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html" title="Executes an event everytime a &#39;period&#39; passes for a number of times.">Timer</a> constructor.  <a href="class__3_d_rad_space_dll_1_1_timer.html#a5736ca0edc78a59d91959b7255edc09a">More...</a><br /></td></tr>
 <tr class="separator:a5736ca0edc78a59d91959b7255edc09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ea92ee540cd2fe2a80b1ea4753ad440"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class__3_d_rad_space_dll_1_1_timer.html#a9ea92ee540cd2fe2a80b1ea4753ad440">Update</a> (MouseState mouse, KeyboardState keyboard, GameTime time)</td></tr>
 <tr class="separator:a9ea92ee540cd2fe2a80b1ea4753ad440"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,14 +310,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Main <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html" title="Executes an event everytime a &#39;period&#39; passes for a number of times.">Timer</a> constructor. </p>
+<p><a class="el" href="class__3_d_rad_space_dll_1_1_main.html" title="Global stuff there and over there.">Main</a> <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html" title="Executes an event everytime a &#39;period&#39; passes for a number of times.">Timer</a> constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of the object.</td></tr>
     <tr><td class="paramname">enabled</td><td>If the timer will execute.</td></tr>
     <tr><td class="paramname">period</td><td><a class="el" href="class__3_d_rad_space_dll_1_1_timer.html" title="Executes an event everytime a &#39;period&#39; passes for a number of times.">Timer</a> period.</td></tr>
-    <tr><td class="paramname">repetitions</td><td>How much time the event will execute. Use <dl class="section see"><dt>See also</dt><dd>uint.MaxValue</dd></dl>
-to represent ∞ . </td></tr>
+    <tr><td class="paramname">repetitions</td><td>How much time the event will execute. Use uint.MaxValue to represent ∞ . </td></tr>
   </table>
   </dd>
 </dl>
@@ -449,8 +448,7 @@ to represent ∞ . </td></tr>
 </div><div class="memdoc">
 
 <p>Defines how many times the event will get called. </p>
-<p>Use </p><dl class="section see"><dt>See also</dt><dd>uint.MaxValue, <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html#a1fef686233d64c02784ab32cc4bbab13" title="Represents ∞">Infinity</a></dd></dl>
-<p>or  to represent ∞ (infinity) </p>
+<p>Use uint.MaxValue Infinity to represent ∞ (infinity) </p>
 
 </div>
 </div>
@@ -476,10 +474,8 @@ to represent ∞ . </td></tr>
 </div><div class="memdoc">
 
 <p>Counts the time passed. </p>
-<p>Maximum value is </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class__3_d_rad_space_dll_1_1_timer.html#a28db045617d3bfbf38a1824c3bb802bb" title="Defined the time in milliseconds between the timer event executions.">Period</a>, <a class="el" href="class__3_d_rad_space_dll_1_1_timer.html#ae5fff40be634be9e052508abe42c80bf" title="Defines how many times the event will get called.">Repetitions</a></dd></dl>
-<p>* </p>
-<p>NOTE: Unsigned integer overflows will occur if the Period is a value representing ∞ (</p><dl class="section see"><dt>See also</dt><dd>uint.MaxValue</dd></dl>
-<p>)</p>
+<p>Maximum value is Period * Repetitions</p>
+<p>NOTE: Unsigned integer overflows will occur if the Period is a value representing ∞ ( uint.MaxValue )</p>
 
 </div>
 </div>

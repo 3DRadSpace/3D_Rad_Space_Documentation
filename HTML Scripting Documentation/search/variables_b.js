@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['screensize_339',['ScreenSize',['../class__3_d_rad_space_dll_1_1_game.html#a4eaa644ae9e0239289cb8ae596043c91',1,'_3DRadSpaceDll::Game']]],
-  ['selectedobjects_340',['SelectedObjects',['../class__3_d_rad_space_dll_1_1_game_object.html#ac22c400a7b4a9f17c020b7f259407188',1,'_3DRadSpaceDll::GameObject']]],
-  ['sensibility_341',['Sensibility',['../class__3_d_rad_space_dll_1_1_f_p_v_camera.html#ae9a45fba558ff7bcff6b61a560dbb7f9',1,'_3DRadSpaceDll::FPVCamera']]],
-  ['sphere_342',['Sphere',['../class__3_d_rad_space_dll_1_1_event_on_location.html#a727a4bd1015999841cce774c4cc4b8f0',1,'_3DRadSpaceDll::EventOnLocation']]],
-  ['state_343',['State',['../struct__3_d_rad_space_dll_1_1_key_input.html#afd8f74bf97341d7bc4118b5328212667',1,'_3DRadSpaceDll::KeyInput']]]
+  ['repetitions_373',['Repetitions',['../class__3_d_rad_space_dll_1_1_timer.html#ae5fff40be634be9e052508abe42c80bf',1,'_3DRadSpaceDll::Timer']]],
+  ['requestexit_374',['RequestExit',['../class__3_d_rad_space_dll_1_1_game.html#a325144bdf8449f81d85495b5ccbd2624',1,'_3DRadSpaceDll::Game']]],
+  ['right_375',['Right',['../class__3_d_rad_space_dll_1_1_f_p_v_camera.html#a6dca4d279154062ef2d746cf84493e96',1,'_3DRadSpaceDll::FPVCamera']]],
+  ['rotation_376',['Rotation',['../class__3_d_rad_space_dll_1_1_game_object.html#a0f003515caa90b92680d0be3469a657a',1,'_3DRadSpaceDll::GameObject']]]
 ];
