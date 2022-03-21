@@ -1,6 +1,0 @@
-var searchData=
-[
-  ['findobject_268',['FindObject',['../class__3_d_rad_space_dll_1_1_game.html#a6bf71f17e682999afd89641d8d83ed47',1,'_3DRadSpaceDll.Game.FindObject(int i)'],['../class__3_d_rad_space_dll_1_1_game.html#a31daa7804c07121da6f95528a90f02de',1,'_3DRadSpaceDll.Game.FindObject(string Name)']]],
-  ['fog_269',['Fog',['../class__3_d_rad_space_dll_1_1_fog.html#ad08bd5f61f2408c45c59def690f140d4',1,'_3DRadSpaceDll.Fog.Fog(string name, bool enabled, Color color=default, float start=50, float end=500)'],['../class__3_d_rad_space_dll_1_1_fog.html#a46a9644d9defb0a462d101b716799871',1,'_3DRadSpaceDll.Fog.Fog()']]],
-  ['fpvcamera_270',['FPVCamera',['../class__3_d_rad_space_dll_1_1_f_p_v_camera.html#a27b4de288f94c2df7391e0f500bddfd8',1,'_3DRadSpaceDll.FPVCamera.FPVCamera()'],['../class__3_d_rad_space_dll_1_1_f_p_v_camera.html#a3354c679ba266b2473b70ca6c87cd59c',1,'_3DRadSpaceDll.FPVCamera.FPVCamera(string name, bool enabled, Vector3 pos, Vector3 up, Vector2 look_coords, float fov)'],['../class__3_d_rad_space_dll_1_1_f_p_v_camera.html#ad9ef82a1a87200eb740130f3f5a6552e',1,'_3DRadSpaceDll.FPVCamera.FPVCamera(string name, bool enabled, Vector3 pos, Vector2 look_coords, Vector3 up, float fov, float nearplane, float farplane, Keys w, Keys a, Keys s, Keys d, float mov_speed, float rot_speed)']]]
-];
