@@ -1,5 +1,8 @@
 site_name: 3DRadSpace Documentation
 
+repo_url: https://github.com/3DRadSpace/3D_Rad_Space 
+repo_name: 3DRadSpace\3D_Rad_Space 
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
@@ -18,8 +21,10 @@ theme:
 
 
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
+    icon:
+        repo: fontawesome/brands/git-alt
   features:
     - navigation.instant
 
