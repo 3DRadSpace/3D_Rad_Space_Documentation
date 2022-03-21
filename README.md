@@ -1,2 +1,2 @@
 # 3DRadSpace Documentation
-Official HTML documentation for 3DRadSpace! teet
+Official HTML documentation for 3DRadSpace!
