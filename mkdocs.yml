@@ -6,6 +6,29 @@ repo_name: 3DRadSpace\3D_Rad_Space
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  
 
 theme:
   name: material
@@ -14,14 +37,12 @@ theme:
     - scheme: default
       toggle:
         icon: material/weather-sunny
-
-
+        primary: green
         name: Switch to dark mode
     - scheme: slate 
-
-
       toggle:
         icon: material/weather-night
+        primary: green
         name: Switch to light mode
   icon:
     repo: fontawesome/brands/git-alt
