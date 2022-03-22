@@ -28,7 +28,6 @@ markdown_extensions:
       permalink: true
   - admonition
   - pymdownx.details
-  
 
 theme:
   name: material
@@ -48,6 +47,7 @@ theme:
     repo: fontawesome/brands/git-alt
   features:
     - navigation.instant
+  favicon: images/favicon.png
 
 extra_javascript:
   - javascripts/mathjax.js
