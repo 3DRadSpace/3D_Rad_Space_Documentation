@@ -1,5 +1,5 @@
 # 3DRadSpace Documentation
-Official HTML documentation for 3DRadSpace!
+Official documentation for 3DRadSpace!
 
 # Setting up:
 
