@@ -6,8 +6,8 @@ Official documentation for 3DRadSpace!
 1.) Clone this repository:
 - `git clone https://github.com/3DRadSpace/3D_Rad_Space_Documentation`
 
-2.) Install MkDocs
-- `pip install mkdocs`
+2.) Install MkDocs (may want to run these as admin)
+- `pip install mkdocs` 
 - `pip install mkdocs_custom_fences`
 - `pip install mkdocs-material`
 
